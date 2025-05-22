@@ -1,27 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Universal Links Test</title>
-  <style>
-    body {
-      font-family: sans-serif;
-      text-align: center;
-      padding: 50px;
-      background: #f5f5f5;
-    }
-    a {
-      display: inline-block;
-      margin-top: 20px;
-      font-size: 18px;
-      color: #007AFF;
-      text-decoration: none;
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Universal/App Links Test</title>
 </head>
 <body>
-  <h1>Universal Links Test Page</h1>
-  <p>This is a placeholder for testing Universal Links (Apple) and App Links (Android).</p>
-  <a href="/.well-known/apple-app-site-association" target="_blank">View AASA File</a>
+  <h1>App Links & Universal Links Test Page</h1>
+  <p>This page is used for testing iOS Universal Links and Android App Links.</p>
+
+  <ul>
+    <li>
+      👉 <a href="/.well-known/apple-app-site-association" target="_blank" rel="noopener noreferrer">
+        View <code>apple-app-site-association</code>
+      </a>
+    </li>
+    <li>
+      👉 <a href="/.well-known/assetlinks.json" target="_blank" rel="noopener noreferrer">
+        View <code>assetlinks.json</code>
+      </a>
+    </li>
+  </ul>
+
+  <p>
+    Ensure both files are publicly accessible at:
+  </p>
+  <code>https://yourdomain.com/.well-known/apple-app-site-association</code><br>
+  <code>https://yourdomain.com/.well-known/assetlinks.json</code>
 </body>
 </html>
