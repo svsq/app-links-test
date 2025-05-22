@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.arcapita.app",
+      "sha256_cert_fingerprints": [
+        "7E:C7:E0:DA:F4:42:C5:16:DC:62:F6:ED:D2:77:CC:63:9A:64:A7:A8:86:D3:83:5B:97:BE:A1:C6:AA:90:3A:32"
+      ]
+    }
+  }
+]    
