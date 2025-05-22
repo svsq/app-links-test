@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "BG4NKVQ622.com.arcapita.app",
+        "paths": [ "/sign-in/azure*", "/sign-up/azure*" ]
+      }
+    ]
+  }
+}
